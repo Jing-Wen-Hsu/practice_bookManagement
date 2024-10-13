@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Book-Management-Project
+  datasource:
+
+    # ?? MySQL ???? JDBC URL
+    url: jdbc:mysql://localhost:3306/book
+
+    # ?? MySQL ????
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    # ?????????
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
